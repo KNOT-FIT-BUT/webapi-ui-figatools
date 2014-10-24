@@ -1,0 +1,22 @@
+div(class="ui celled grid")
+    div(class="seven wide middle column")
+        div(id="stacionary")
+            div(class="ui form")
+                div(class="field")
+                    label User Input:
+                    div(class="ui fluid icon input")
+                        input(type="text" id="inputBox")
+                        i(class="search icon")
+                div(class="field")
+                    label Automata:
+                    div(class="ui dropdown selection fluid" id="fsaForm")
+                        input(type="hidden" name="fsaAutomat")
+                        div(class="default text") .......
+                        i(class="dropdown icon")
+                        div(class="menu" id="fsaList")
+            div(class="ui divider")
+        div(class="ui divided inbox selection list active tab" id="sugestion")
+
+    div(class="nine wide middle column")
+        h2(class="ui header") Knowledge Base Entry:
+        div(id="kbEntry")
